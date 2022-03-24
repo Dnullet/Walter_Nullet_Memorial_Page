@@ -28,12 +28,21 @@ body {
     border-color:#00843d;
     width: 296.25px;
     height: 450px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .bodycontainer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.briefstory {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .pic_container {
@@ -51,4 +60,45 @@ body {
     border-radius: 24px;
     border-style: solid;
     border-color:#00843d;
+}
+
+.bodycontainer1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #ae9142;
+}
+
+.NDtext {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: #0c2340
+}
+
+.NDpics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ND {
+    width: 300px;
+    height: 197.5px;
+    margin: 50px;
+    border-radius: 24px;
+    border-style: solid;
+    border-color:#00843d;
+}
+
+.footer {
+    background-color: #0c2340;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color:#f9f6ee;
 }
